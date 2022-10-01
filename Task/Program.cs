@@ -50,13 +50,13 @@ Console.Clear();
 Console.Write("Введите размерность массива, который Вы хотите создать N = ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-string[] array = InputArray(n);
+string[] inArray = InputArray(n);
 
 Console.WriteLine();
 Console.Write("Вы создали массив: array ");
-PrintArray(array);
+PrintArray(inArray);
 
-string[] outArray = ConversionArray(array);
+string[] outArray = ConversionArray(inArray);
 
 Console.WriteLine();
 Console.Write("После выполнения поставленной задачи имеем: newArrray ");
